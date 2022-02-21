@@ -37,8 +37,7 @@ function merge(leftPart, rightPart) {
     }
   }
 
-  return sortedArray
-    .concat(leftPart.slice(leftIndex), rightPart.slice(rightIndex));
+  return [...sortedArray, ...leftPart, ...rightPart]
 }
 
 console.log(mergeSort([34, 11, 3, 67, 8, 15, 9, 23, 55]));

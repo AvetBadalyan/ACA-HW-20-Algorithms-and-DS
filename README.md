@@ -60,3 +60,9 @@ input ["a", "b", "c", "d", "e", "f", "g", "h"], 3) must return  ["d", "e", "f", 
 [07.findSumOfDigits.js](07.findSumOfDigits.js)
 
 ---
+
+##### 08. Implementation of Merge Sort
+
+[08.mergeSort.js](008.mergeSort.js)
+
+---

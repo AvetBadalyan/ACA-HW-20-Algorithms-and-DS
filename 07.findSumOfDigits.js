@@ -7,13 +7,13 @@ function sumOfDigits(number) {
   return String(number)
     .split("")
     .reduce(function (aggr, digit) {
-      if (aggr >= 10) {
-        return sumOfDigits(aggr);
+      if (aggr + digit >= 10) {
+        return sumOfDigits(aggr + Number(digit));
       }
       return aggr + Number(digit);
     }, 0);
 }
 
-console.log(sumOfDigits(56)); // 5
+console.log(sumOfDigits(56)); // 2
 console.log(sumOfDigits(29)); // 2
 console.log(sumOfDigits(999)); // 9

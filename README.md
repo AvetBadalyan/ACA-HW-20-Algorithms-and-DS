@@ -52,3 +52,11 @@ input ["a", "b", "c", "d", "e", "f", "g", "h"], 3) must return  ["d", "e", "f", 
 [06.moveItemsInsideArray.js](06.moveItemsInsideArray.js)
 
 ---
+
+ 
+
+##### 07. Given a number. Write a function that calculates its sum of the digits and if that sum has more than 1 digit find the sum of digits of that number. Repeat that process if needed and return the result.
+
+[07.findSumOfDigits.js](07.findSumOfDigits.js)
+
+---

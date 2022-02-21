@@ -37,3 +37,11 @@ input [6, 78, ‘n’, 0, 1] output should be [78, ‘n’, 0, 1] ;
 [04.implementationOfArrayShift.js](04.implementationOfArrayShift.js)
 
 ---
+
+##### 05. Given an array of nested arrays. Write a recursive function that flattens it. (Hint create function that concats arrays).
+
+input [1, [3, 4, [1, 2]], 10] must return [1, 3, 4, 1, 2, 10]
+
+[05.flattenArray.js](05.flattenArray.js)
+
+---

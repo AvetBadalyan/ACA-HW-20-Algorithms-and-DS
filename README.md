@@ -29,3 +29,11 @@ input [-9, -4, -4, 3, 12, 4, 5] ; output should be 5!
 [03.findSortViolation.js](03.findSortViolation.js)
 
 ---
+
+##### 04. Given an array. Write a recursive function that removes the first element and returns the given array. (without using arr.shift())
+
+input [6, 78, ‘n’, 0, 1] output should be [78, ‘n’, 0, 1] ;
+
+[04.implementationOfArrayShift.js](04.implementationOfArrayShift.js)
+
+---

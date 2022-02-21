@@ -45,3 +45,10 @@ input [1, [3, 4, [1, 2]], 10] must return [1, 3, 4, 1, 2, 10]
 [05.flattenArray.js](05.flattenArray.js)
 
 ---
+##### 06. Given an array and a number N. Write a recursive function that rotates an array N places to the left. 
+
+input ["a", "b", "c", "d", "e", "f", "g", "h"], 3) must return  ["d", "e", "f", "g", "h", "a", "b", "c"]
+
+[06.moveItemsInsideArray.js](06.moveItemsInsideArray.js)
+
+---
